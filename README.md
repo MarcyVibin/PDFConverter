@@ -7,24 +7,15 @@
 [![project_license][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/github_username/file-to-pdf-converter">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">File to PDF Converter</h3>
 
   <p align="center">
     Convert Excel, Word, PowerPoint, Images, and PDFs into PDF format with ease.
     <br />
-    <a href="https://github.com/github_username/file-to-pdf-converter"><strong>Explore the docs »</strong></a>
     <br />
-    <br />
-    <a href="https://github.com/github_username/file-to-pdf-converter/issues">Report Bug</a>
+    <a href="https://github.com/MarcyVibin/file-to-pdf-converter/issues">Report Bug</a>
     &middot;
-    <a href="https://github.com/github_username/file-to-pdf-converter/issues">Request Feature</a>
+    <a href="https://github.com/MarcyVibin/file-to-pdf-converter/issues">Request Feature</a>
   </p>
 </div>
 
@@ -46,7 +37,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -56,8 +46,6 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This project provides a **Python-based file converter** that can transform various file types into **PDF format**.  
 It uses Microsoft Office COM automation (via `pywin32`) and additional libraries to support conversions from:
@@ -95,3 +83,15 @@ Follow these steps to set up and run the project locally.
 - Install dependencies:
   ```sh
   pip install pywin32 img2pdf PyPDF2
+
+
+[Python.org]: https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white
+[Python-url]: https://www.python.org/
+[Office.com]: https://img.shields.io/badge/Microsoft%20Office-D83B01?style=for-the-badge&logo=microsoft-office&logoColor=white
+[Office-url]: https://www.microsoft.com/microsoft-365
+[PyWin32-badge]: https://img.shields.io/badge/PyWin32-003366?style=for-the-badge
+[PyWin32-url]: https://pypi.org/project/pywin32/
+[PyPDF2-badge]: https://img.shields.io/badge/PyPDF2-004C97?style=for-the-badge
+[PyPDF2-url]: https://pypi.org/project/PyPDF2/
+[img2pdf-badge]: https://img.shields.io/badge/img2pdf-222222?style=for-the-badge
+[img2pdf-url]: https://pypi.org/project/img2pdf/
