@@ -85,7 +85,7 @@ pip install pywin32 img2pdf PyPDF2
 
 ### Installation
 
-Install via git by using:
+Install via git (recommended):
 ```sh
 pip install git+https://github.com/marcyvibin/PDFConverter.git
 ```
@@ -98,7 +98,9 @@ from pdfconverter import Converter
 
 Converter.convert() # main usage
 Converter.merge_pdfs()
-Converter.DatatypeConverters.excel_to_pdf() # only needed if you want to specify sheet numbers for excel
+
+# only needed if you want to specify sheet numbers for excel
+Converter.DatatypeConverters.excel_to_pdf() 
 ```
 
 <!-- LICENSE -->
