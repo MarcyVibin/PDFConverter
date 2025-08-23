@@ -78,7 +78,10 @@ Follow these steps to set up and run the project locally.
 - Windows OS
 - Microsoft Office (Excel, Word, PowerPoint installed)
 - Python 3.9+
-- Install dependencies:
+- Install dependencies (if not downloaded via pip): 
+```sh
+pip install pywin32 img2pdf PyPDF2
+```
 
 ### Installation
 
