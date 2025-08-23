@@ -97,3 +97,13 @@ Follow these steps to set up and run the project locally.
 [img2pdf-url]: https://pypi.org/project/img2pdf/
 [contributors-shield]: https://img.shields.io/github/contributors/marcyvibin/PDFConverter.svg?style=for-the-badge
 [contributors-url]: https://github.com/marcyvibin/PDFConverter/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/marcyvibin/PDFConverter.svg?style=for-the-badge
+[forks-url]: https://github.com/marcyvibin/PDFConverter/network/members
+[stars-shield]: https://img.shields.io/github/stars/marcyvibin/PDFConverter.svg?style=for-the-badge
+[stars-url]: https://github.com/marcyvibin/PDFConverter/stargazers
+[issues-shield]: https://img.shields.io/github/issues/marcyvibin/PDFConverter.svg?style=for-the-badge
+[issues-url]: https://github.com/marcyvibin/PDFConverter/issues
+[license-shield]: https://img.shields.io/github/license/marcyvibin/PDFConverter.svg?style=for-the-badge
+[license-url]: https://github.com/marcyvibin/PDFConverter/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/YOUR-LINKEDIN-NAME
