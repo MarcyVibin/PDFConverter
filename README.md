@@ -95,3 +95,5 @@ Follow these steps to set up and run the project locally.
 [PyPDF2-url]: https://pypi.org/project/PyPDF2/
 [img2pdf-badge]: https://img.shields.io/badge/img2pdf-222222?style=for-the-badge
 [img2pdf-url]: https://pypi.org/project/img2pdf/
+[contributors-shield]: https://img.shields.io/github/contributors/marcyvibin/PDFConverter.svg?style=for-the-badge
+[contributors-url]: https://github.com/marcyvibin/PDFConverter/graphs/contributors
