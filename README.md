@@ -10,7 +10,7 @@
 <h3 align="center">File to PDF Converter</h3>
 
   <p align="center">
-    Convert Excel, Word, PowerPoint, Images, and PDFs into PDF format with ease.
+    Automate converting Excel, Word, PowerPoint, Images, and PDFs into PDF format with ease.
     <br />
     <br />
     <a href="https://github.com/MarcyVibin/file-to-pdf-converter/issues">Report Bug</a>
@@ -91,19 +91,10 @@ Or manually by downloading the folder and adding the library to your python pack
 ## Usage
 
 ```py
-from pdfconverter import convert
+from pdfconverter import Converter
 
-convert()
-```
-```py
-import pdfconverter
-
-pdfconverter.convert()
-```
-```py
-from pdfconverter import merge_pdfs
-
-merge_pdfs()
+Converter.convert()
+Converter.merge_pdfs()
 ```
 
 <!-- LICENSE -->
