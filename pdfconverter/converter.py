@@ -9,6 +9,7 @@ class Converter:
     def __init__(self):
       pass
 
+    @staticmethod
     def excel_to_pdf(input: Path, output: Path, sheetnumber=(-1)):
       """Converts an excel file to a pdf file.
 
@@ -77,6 +78,7 @@ class Converter:
             excel.Quit()
       return
     
+    @staticmethod
     def word_to_pdf(input: Path, output: Path):
       """Converts an word file to a pdf file.
 
@@ -101,6 +103,7 @@ class Converter:
           word.Quit()
       return
 
+    @staticmethod
     def ppt_to_pdf(input: Path, output: Path):
       """Converts an powerpoint file to a pdf file.
 
@@ -124,7 +127,8 @@ class Converter:
         if ppt:
           ppt.Quit()
       return
-
+    
+    @staticmethod
     def img_to_pdf(input: Path, output: Path):
       """Converts an image file to a pdf file.
 
@@ -170,7 +174,8 @@ class Converter:
 
       except Exception:
         raise """
-
+  
+  @staticmethod
   def merge_pdfs(directory, output="finshed.pdf") -> None:
     """Merges all pdf files in the same directory.
 
@@ -228,6 +233,7 @@ class Converter:
     else:
       return 0
 
+  @staticmethod
   def convert(input: Path, output: Path) -> None:
     """Convert a file into a pdf.
 

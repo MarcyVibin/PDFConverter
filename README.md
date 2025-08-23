@@ -93,8 +93,8 @@ Or manually by downloading the folder and adding the library to your python pack
 ```py
 from pdfconverter import Converter
 
-Converter.convert()
-Converter.merge_pdfs()
+Cconverter.convert()
+Cconverter.merge_pdfs()
 ```
 
 <!-- LICENSE -->
