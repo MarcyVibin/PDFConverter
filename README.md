@@ -81,8 +81,35 @@ Follow these steps to set up and run the project locally.
 - Microsoft Office (Excel, Word, PowerPoint installed)
 - Python 3.9+
 - Install dependencies:
-  ```sh
-  pip install pywin32 img2pdf PyPDF2
+
+### Installation
+
+Install via git by using:
+```sh
+pip install git+https://github.com/marcyvibin/PDFConverter.git
+```
+
+## Usage
+
+```py
+from pdfconverter import convert
+convert()
+```
+```py
+import pdfconverter
+
+pdfconverter.convert()
+```
+```py
+from pdfconverter import merge_pdfs
+
+merge_pdfs()
+```
+
+
+
+
+
 
 
 [Python.org]: https://img.shields.io/badge/Python-3.9+-3776AB?style=for-the-badge&logo=python&logoColor=white
