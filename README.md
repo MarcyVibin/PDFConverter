@@ -93,8 +93,9 @@ Or manually by downloading the folder and adding the library to your python pack
 ```py
 from pdfconverter import Converter
 
-Cconverter.convert()
-Cconverter.merge_pdfs()
+Converter.convert() # main usage
+Converter.merge_pdfs()
+Converter.DatatypeConverters.excel_to_pdf() # only needed if you want to specify sheet numbers for excel
 ```
 
 <!-- LICENSE -->
