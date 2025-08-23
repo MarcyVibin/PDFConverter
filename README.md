@@ -37,10 +37,8 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
 
@@ -88,11 +86,13 @@ Install via git by using:
 ```sh
 pip install git+https://github.com/marcyvibin/PDFConverter.git
 ```
+Or manually by downloading the folder and adding the library to your python packages.
 
 ## Usage
 
 ```py
 from pdfconverter import convert
+
 convert()
 ```
 ```py
@@ -106,9 +106,21 @@ from pdfconverter import merge_pdfs
 merge_pdfs()
 ```
 
+<!-- LICENSE -->
+## License
 
+Distributed under the project_license. See `LICENSE.txt` for more information.
 
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- CONTACT -->
+## Contact
+
+Marc Steger - marc.steger06@gmail.com
+
+Project Link: [https://github.com/marcyvibin/PDFConverter](https://github.com/marcyvibin/PDFConverter)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
